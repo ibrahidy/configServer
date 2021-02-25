@@ -5,4 +5,3 @@ spring:
       host: localhost
       discovery:
         service-name: ${spring.application.name}
-        instance-id: ${spring.application.name}:${server.port}
